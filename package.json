@@ -1,0 +1,50 @@
+{
+  "name": "awesome-project",
+  "version": "1.0.0",
+  "description": "Build me a complete React native app of streaming audio like a spotify clone",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-native start",
+    "test": "jest",
+    "build": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle",
+    "ios": "react-native run-ios",
+    "android": "react-native run-android"
+  },
+  "dependencies": {
+    "expo": "^46.0.13",
+    "expo-av": "^8.0.4",
+    "expo-constants": "^11.0.0",
+    "expo-file-system": "^11.0.0",
+    "expo-font": "^9.0.4",
+    "expo-gl": "^9.0.4",
+    "expo-media-library": "^11.0.0",
+    "expo-permissions": "^11.0.0",
+    "expo-sqlite": "^11.0.0",
+    "expo-status-bar": "^11.0.0",
+    "expo-track-player": "^3.0.0",
+    "expo-vector-icons": "^11.0.0",
+    "react": "~17.0.2",
+    "react-native": "~0.67.4",
+    "react-native-gesture-handler": "~1.10.3",
+    "react-native-reanimated": "~2.8.0",
+    "react-native-safe-area-context": "~3.2.0",
+    "react-native-screens": "~3.9.0",
+    "react-native-svg": "~12.2.0",
+    "react-navigation": "^5.9.4",
+    "react-navigation-stack": "^5.12.6",
+    "react-navigation-tabs": "^5.9.7",
+    "styled-components": "^5.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/preset-env": "^7.12.11",
+    "@expo/metro-config": "~0.4.5",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "babel-jest": "^26.6.3",
+    "eslint": "^7.32.0",
+    "jest": "^26.6.3",
+    "metro-react-native-babel-preset": "^0.67.4",
+    "react-test-renderer": "~17.0.2"
+  },
+  "private": true
+}
